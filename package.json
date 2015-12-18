@@ -1,0 +1,7 @@
+{
+    "name": "MoveMore",
+    "author": "sflip",
+    "description": "Move cursor up or down more than one line",
+    "details": "https://github.com/sflip/SublimeMoveMore",
+    "releases": [{"sublime_text": "*", "tags": true }]
+}

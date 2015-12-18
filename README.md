@@ -19,7 +19,7 @@ Installation
 
 ### Package Control
 
-I did not take care of that yet. Maybe I will.
+Use the `Install Package` command of [Package Control](https://packagecontrol.io/) and search for `MoveMore`.
 
 ### Manually
 
