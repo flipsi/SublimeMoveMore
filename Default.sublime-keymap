@@ -1,4 +1,4 @@
 [
-    { "keys": ["ctrl+alt+down"], "command": "move_more", "args": {"amount": 5 } },
-    { "keys": ["ctrl+alt+up"], "command": "move_more", "args": {"amount": -5 } }
+    { "keys": ["ctrl+alt+down"], "command": "move_more", "args": { "amount": 5 } },
+    { "keys": ["ctrl+alt+up"], "command": "move_more", "args": { "amount": 5, "forward": false } }
 ]
