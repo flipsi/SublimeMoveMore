@@ -2,7 +2,7 @@ import sublime, sublime_plugin
 
 class MoveMoreCommand(sublime_plugin.TextCommand):
 
-    def run(self, edit, amount=1, forward=True):
+    def run(self, edit, amount=1, forward=True, extend=False):
 
         # negative amount means opposite direction
         if (amount < 0):
@@ -12,10 +12,10 @@ class MoveMoreCommand(sublime_plugin.TextCommand):
 
         # extend if there is selected text
         # (there probably is a better implementation)
-        extend = False
-        for r in self.view.sel():
-            if (r.size()):
-                extend = True
+        if extend is False:
+            for r in self.view.sel():
+                if (r.size()):
+                    extend = True
 
         # and move!
         for i in range(amount):
